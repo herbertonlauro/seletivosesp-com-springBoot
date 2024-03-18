@@ -1,4 +1,4 @@
-package com.seletivosespspring.mappers;
+package com.seletivosespspring.dto;
 
 import com.seletivosespspring.model.Pessoa;
 import lombok.Value;
