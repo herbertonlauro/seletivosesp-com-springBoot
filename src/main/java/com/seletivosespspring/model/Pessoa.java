@@ -22,14 +22,14 @@ public class Pessoa {
     @Column(name = "nascimento")
     private LocalDate nascimento;
 
+    @Column(name = "nome")
+    private String nome;
+
     @Column(name = "cpf")
     private String cpf;
 
     @Column(name = "email")
     private String email;
-
-    @Column(name = "m")
-    private String m;
 
     @Column(name = "mae")
     private String mae;
