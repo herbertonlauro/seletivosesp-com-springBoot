@@ -1,6 +1,7 @@
 package com.seletivosespspring.dto;
 
-import lombok.Value;
+import jakarta.persistence.Column;
+import lombok.*;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -8,12 +9,16 @@ import java.time.LocalDate;
 /**
  * DTO for {@link com.seletivosespspring.models.Pessoa}
  */
-@Value
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class PessoaDTO implements Serializable {
 
     Long id;
     LocalDate cadastradoem;
     LocalDate nascimento;
+    String nome;
     String cpf;
     String email;
     String mae;
