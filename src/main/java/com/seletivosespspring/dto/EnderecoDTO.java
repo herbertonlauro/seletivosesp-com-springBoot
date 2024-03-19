@@ -1,15 +1,15 @@
 package com.seletivosespspring.dto;
 
-import com.seletivosespspring.model.Pessoa;
+import com.seletivosespspring.models.Pessoa;
 import lombok.Value;
 
 import java.io.Serializable;
 
 /**
- * DTO for {@link com.seletivosespspring.model.Endereco}
+ * DTO for {@link com.seletivosespspring.models.Endereco}
  */
 @Value
-public class EnderecoDto implements Serializable {
+public class EnderecoDTO implements Serializable {
     Long id;
     Integer numero;
     Pessoa idpessoa;

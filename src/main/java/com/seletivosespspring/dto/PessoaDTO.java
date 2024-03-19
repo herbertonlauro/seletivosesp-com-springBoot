@@ -6,10 +6,10 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 /**
- * DTO for {@link com.seletivosespspring.model.Pessoa}
+ * DTO for {@link com.seletivosespspring.models.Pessoa}
  */
 @Value
-public class PessoaDto implements Serializable {
+public class PessoaDTO implements Serializable {
 
     Long id;
     LocalDate cadastradoem;
