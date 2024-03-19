@@ -1,4 +1,4 @@
-package com.seletivosespspring.model;
+package com.seletivosespspring.models;
 
 import jakarta.persistence.*;
 import lombok.Getter;
