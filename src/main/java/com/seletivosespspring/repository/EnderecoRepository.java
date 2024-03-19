@@ -1,6 +1,6 @@
 package com.seletivosespspring.repository;
 
-import com.seletivosespspring.model.Endereco;
+import com.seletivosespspring.models.Endereco;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

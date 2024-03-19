@@ -1,6 +1,6 @@
 package com.seletivosespspring.repository;
 
-import com.seletivosespspring.model.Pessoa;
+import com.seletivosespspring.models.Pessoa;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
